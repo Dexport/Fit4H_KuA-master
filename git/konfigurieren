@@ -1,0 +1,12 @@
+Parameter:
+	--global
+			#die Einstellungen gelten für alle git-Anwendungen dieses Users auf diesem Rechner
+
+git config --global user.name "Dexport"
+			#login bei github
+
+git config --global user.email "aggro_soldier@gmx.de"
+
+git config --global credential.helper 'cache --timeout=36000'
+			#Logindaten werden gespeichert um nicht bei jedem push die Daten eingeben zu müssen. Zeit (36000) in sekunden.
+

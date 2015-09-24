@@ -1,0 +1,26 @@
+GITHUB.COM
+	neues Repository anlegen
+
+HOST:
+	mkdir kua_fit4h
+	cd kua_fit4h
+	git init												#initalisieren eines neuen GIT Repositorys
+	touch text.txt 									#Erzeugen einer neuen Datei
+	git add text.txt 								#Die Datei text.txt wird ins neue Repository aufgenommen, d.h. unter Versionsverwaltung gestellt
+	git commit -m "Initialisierung"	#Die neue Datei wird in den Bereich der Dateien geschoben, die mit dem Server synchronisiert werden sollen
+	git remote add origin https://github.com/Dexport/Fit4H_KuA.git 	#Das lokale Repository wird mit dem online Repository verbunden um anschließend Daten auszutauschen
+	git push -u origin master 			#locale Repositorys werden online gestellt; online Repos werden aktualisiert
+
+
+
+
+
+
+Anleitung nach Netz!
+
+	echo "# Fit4H_KuA" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/Dexport/Fit4H_KuA.git
+	git push -u origin master

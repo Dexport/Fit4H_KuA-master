@@ -1,0 +1,23 @@
+sudo dpkg-reconfigure keyboard-configuration
+
+sudo apt-get update
+
+sudo apt-get install git
+
+cd Documents
+
+mkdir Schule
+
+cd Schule
+
+git init
+
+git remote add origin https://github.com/Dexport/Fit4H_KuA.git
+
+git push origin master
+
+git fetch https://github.com/Dexport/Fit4H_KuA.git
+
+git fetch origin
+
+git checkout master

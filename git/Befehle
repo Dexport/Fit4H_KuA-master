@@ -1,0 +1,43 @@
+cd
+	#change directory
+	#.. einen ordner zurück
+	#~ ins Home verzeichnis  ~ = /user/home (~ für alle distributionen, Ubuntu benötigt die tilde nicht)
+
+
+mkdir
+	#make directory
+
+ls -lat
+	#list
+	#l long, also viel info
+	#a alles anzeigen, auch versteckte ordner und datein
+	#t sortiert nach zeit, jüngstes Datum oben
+
+cp quelle ziel (cp datei03 datei04)
+	#copy
+	#cp datei03 ~/Dokumente/datei03 kopieren von Datein in ein anderes verzeichnis
+
+rm
+	#remove																																										#(cp/mv/rm) *.txt /test
+	#-rf																																												verschiebt alle .txt Datein 
+	#-r rekursive: von hier an, alle Verzeichnisse																							in zielverzeichnis
+	#-f force: alles wird ohne Nachfrage gelöscht
+	#bsp. rm -rf eup_fit2ah
+
+touch dateiname (datei erstellen)
+	#es können mehrere Datein gleichzeitig erstellt werden indem man die Namen hintereinander wegschreibt und mit leer trennt
+	#
+
+less
+	less datei_name
+		#zeigt die Datei datei_name seitenweise an.
+		#weiterblättern mit leer
+		#beenden mit q
+
+mv
+	mv quelle ziel
+		#der befehl wird zum umbenennen und zum Verschieben von Datein und Ordnern benutzt
+
+(Strg + A) Shift + Strg + 7 
+	#auskommentieren des Ausgewählten Bereichs
+

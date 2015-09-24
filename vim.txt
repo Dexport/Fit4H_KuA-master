@@ -1,0 +1,11 @@
+++++Befehle zum Wechsel in den Eingabemodus
+i				#Einfügen vor der aktuellen Curserposition
+a				#Einfügen 
+I 			#Zeilenanfang
+A				#Zeilenende
+				
+++++
+
+++++
+
+++++
